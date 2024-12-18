@@ -1,0 +1,38 @@
+.checkout-table {
+    thead {
+        tr {
+            @apply border-b border-border;
+            th {
+                @apply font-normal text-center px-3 md:px-5 py-4;
+                &:first-child{
+                    @apply pl-0 text-left
+                }
+                &:last-child{
+                    @apply pr-0 text-right
+                }
+            }
+        }
+    }
+    tbody {
+        tr {
+            @apply border-b border-border;
+            &:last-child{
+                @apply border-none
+            }
+            td {
+                @apply text-center px-3 md:px-5 py-4 text-dark;
+                &:first-child{
+                    @apply pl-0 text-left
+                }
+                &:last-child{
+                    @apply pr-0 text-right
+                }
+            }
+            &:last-child{
+                td {
+                    @apply pb-0;
+                }
+            }
+        }
+    }
+}

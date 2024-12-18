@@ -1,0 +1,12 @@
+
+.btn-primary{
+    @apply bg-primary px-5 py-2 font-bold text-white rounded;
+}
+
+.btn-secondary{
+    @apply bg-secondary font-bold px-5 py-3 text-dark rounded-full;
+}
+
+.btn-outline-tertiary{
+    @apply bg-white font-bold px-5 py-2 text-dark rounded border border-border;
+}
